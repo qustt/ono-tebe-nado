@@ -1,4 +1,62 @@
 /* место для вашего кода */
-.test {
-    font-size: 50px;
+.header {
+    margin: 92px 50px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    place-content: center center;
+}
+
+.header__menu {
+    
+    align-self: center;
+    justify-self: start;
+}
+
+.header__menu-list {
+    display: flex;
+    gap: 32px;
+    
+}
+
+.header__menu-list-item {
+    list-style-type: circle;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.header__menu-list-item:nth-child(1) {
+    list-style-type: none;
+}
+
+.header__menu-link_no-underline {
+    text-decoration: none;
+}
+
+.header__logo {
+  
+    width: 148px;
+    height: 105px;
+    align-self: start;
+    justify-self: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.3px; /* 135% */
+    text-underline-offset: 5px;
+}
+
+.header__contacts {
+    align-self: center;
+    justify-self: end;
 }
