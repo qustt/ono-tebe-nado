@@ -15,7 +15,6 @@
 .header__menu-list {
     display: flex;
     gap: 32px;
-
 }
 
 .header__menu-list-item {
@@ -340,4 +339,47 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.footer {
+    margin: 0 50px 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    place-content: center center;
+    
+}
+
+.footer__contacts {
+    align-self: center;
+    justify-self: start;
+}
+
+.footer__menu {
+    align-self: start;
+    justify-self: center;
+}
+
+.footer__menu-list {
+    list-style-type: none;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__social-list {
+    width: 240px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-self: start;
+    justify-self: end;
+}
+
+.footer__social-icon {
+    height: 48px;
 }
