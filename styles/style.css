@@ -87,7 +87,6 @@
   display: flex;
   flex-direction: column;
   padding-top: 165px;
-  padding-bottom: 237px;
   row-gap: 20px;
   color: #fff;
   font-family: Raleway, sans-serif;
@@ -135,6 +134,8 @@
   gap: 78px;
   position: relative;
   z-index: 3;
+  margin: 135px 50px 0 422px;
+  padding-bottom: 50px;
 }
 
 .cover__description-text {
@@ -148,9 +149,6 @@
   /* 127.273% */
   text-transform: uppercase;
   word-spacing: 17.5px;
-  position: absolute;
-  bottom: 65px;
-  right: 385px;
 }
 
 .bet-button {
@@ -166,9 +164,6 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
 }
 
 .bet-button:hover {
